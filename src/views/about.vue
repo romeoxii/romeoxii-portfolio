@@ -101,7 +101,7 @@ import SupabaseIcon from '/public/icons/supabaseIcon.vue'
         <div class="md:px-4">
           <RouterLink to="/" class="w-full"
             ><button
-              class="md:px-8 px-4 border-t border-blue-200/50 bg-gradient-to-r from-blue-400 to-blue-600 shadow-inner rounded-full size-full space gap-2 py-3 text-white/80 flex items-center justify-between"
+              class="md:px-8 px-4 border-t border-blue-200/50 bg-linear-to-r from-blue-400 to-blue-600 shadow-inner rounded-full size-full space gap-2 py-3 text-white/80 flex items-center justify-between"
             >
               <ArrowLeftIcon />Home
             </button></RouterLink

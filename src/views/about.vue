@@ -58,7 +58,7 @@ import SupabaseIcon from '/public/icons/supabaseIcon.vue'
               projects, will be updating this as I progress.
             </p>
           </div>
-          <div class="flex items-center flex-wrap text-[10px] gap-2">
+          <div class="flex items-center flex-wrap text-xs gap-2">
             <div class="flex items-center gap-1 px-2 py-1 rounded-lg">
               <VueIcon />
               <p>Vue</p>

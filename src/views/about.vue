@@ -20,7 +20,7 @@ import SupabaseIcon from '/public/icons/supabaseIcon.vue'
       <div class="h-full w-full flex flex-col justify-between space-y-3">
         <div class="w-full flex flex-col justify-between md:p-8 py-4 space-y-5">
           <h1 class="text-3xl font-bold md:mt-5 mt-7">Hi, Romeo here</h1>
-          <div class="md:text-[11.5px] text-sm">
+          <div class="text-sm">
             <p>Introvert by nature, web developer by passion.</p>
             <p>
               Eager to build things that speak louder than I do, using
@@ -33,7 +33,7 @@ import SupabaseIcon from '/public/icons/supabaseIcon.vue'
               right. I love clean design, smooth flows, and websites that don't need instructions.
             </p>
           </div>
-          <p class="pb-8 pt-4 md:text-[11.5px] text-sm">
+          <p class="pb-8 text-sm">
             When I'm not coding, I'm probably rewatching my favorite anime, reading a book (just
             picked this up out of nowhere), or just enjoying some quiet time offline.
           </p>
@@ -42,13 +42,20 @@ import SupabaseIcon from '/public/icons/supabaseIcon.vue'
             <h2 class="md:text-xl text-lg font-semibold mb-2">
               Language, tools or frameworks I'm familiar with
             </h2>
-            <p class="md:text-[11.5px] text-sm">
+            <p class="text-sm">
               I don't really have a stack per say but maybe that'll be revealed when I dive deeper
               into ths niche or get more curious about how things work, but for now my go-to for
-              front-end is
-              <span class="text-green-600 font-medium">Vue.js</span>
+              front-end/fullstack is
+              <span class="text-green-600 font-medium">Vue.js, </span>
+
+              <span class="text-sky-500 font-medium">Tailwind CSS</span>
               <span class="text-sm"> & </span>
-              <span class="text-sky-500 font-medium">Tailwind CSS</span>.
+              <span class="text-green-500 font-medium">Supabase</span>.
+            </p>
+            <p class="pt-2 text-sm">
+              I'll be diving deeper into <span class="text-green-700 font-medium">Nuxtjs </span> and
+              <span class="text-yellow-600 font-medium">Python </span> (for backend) in my coming
+              projects, will be updating this as I progress.
             </p>
           </div>
           <div class="flex items-center flex-wrap text-[10px] gap-2">

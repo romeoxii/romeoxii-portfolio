@@ -6,7 +6,7 @@ const toggleStore = useToggleStore()
 
 <template>
   <div
-    class="flex items-center justify-between gap-2 p-1 rounded-3xl border border-neutral-400 bg-neutral-100 shadow-lg"
+    class="flex items-center justify-between gap-2 p-0.5 sm:p-1 rounded-3xl border border-neutral-400 bg-neutral-100 shadow-lg"
   >
     <button
       class="rounded-full p-1 hover"

@@ -3,3 +3,7 @@
 .hover {
   transition: all 0.3s ease-in-out 0.1s;
 }
+
+@theme {
+  --font-kanit: Kanit, sans-serif;
+}

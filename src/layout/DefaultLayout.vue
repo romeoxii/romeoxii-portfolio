@@ -26,8 +26,8 @@ onMounted(() => {
 
 <template>
   <NavBar />
-  <main class="relative bg-white dark:bg-gray-900 transition-colors duration-300 min-h-screen">
+  <main class="relative bg-white dark:bg-black/90 transition-colors duration-300 min-h-screen">
     <RouterView />
-    <ThemeToggle class="fixed bottom-4 right-6" />
+    <ThemeToggle class="fixed sm:bottom-4 sm:right-6 bottom-2 right-2" />
   </main>
 </template>

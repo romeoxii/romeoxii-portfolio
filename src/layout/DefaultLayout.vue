@@ -1,5 +1,6 @@
 <script setup>
 import NavBar from '@/components/NavBar.vue'
+import footerr from '@/components/footerr.vue'
 import { onMounted, watch } from 'vue'
 import { RouterView } from 'vue-router'
 import { useToggleStore } from '@/store/toggle'
@@ -26,8 +27,9 @@ onMounted(() => {
 
 <template>
   <NavBar />
-  <main class="relative bg-white dark:bg-black/90 transition-colors duration-300 min-h-screen">
+  <main class="relative bg-white transition-colors duration-300 min-h-screen">
     <RouterView />
     <ThemeToggle class="fixed sm:bottom-4 sm:right-6 bottom-2 right-2" />
   </main>
+  <footerr />
 </template>

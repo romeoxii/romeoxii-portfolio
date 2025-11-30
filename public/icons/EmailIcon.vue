@@ -1,12 +1,7 @@
 <template>
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    width="20"
-    height="20"
-    viewBox="0 0 48 48"
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48">
     <path
-      fill="#45413c"
+      fill="#51a2ff"
       d="M1.18 38.19a22.63 1.66 0 1 0 45.26 0a22.63 1.66 0 1 0-45.26 0"
       opacity="0.15"
     ></path>
@@ -17,29 +12,26 @@
     ></path>
     <path
       fill="none"
-      stroke="#45413c"
+      stroke="#51a2ff"
       stroke-linecap="round"
       stroke-linejoin="round"
       d="M2.48 10.94h42.67v26.12H2.48Z"
     ></path>
     <path
       fill="none"
-      stroke="#45413c"
+      stroke="#51a2ff"
       stroke-linecap="round"
       stroke-linejoin="round"
       d="m2.79 11.27l21.02 15.58l21.02-15.58M27.7 23.97l17.13 12.7m-42.04 0l17.13-12.7"
     ></path>
+    <path fill="#51a2ff" d="M14.16 23.75a9.84 9.84 0 1 0 19.68 0a9.84 9.84 0 1 0-19.68 0"></path>
     <path
-      fill="#00b8f0"
-      d="M14.16 23.75a9.84 9.84 0 1 0 19.68 0a9.84 9.84 0 1 0-19.68 0"
-    ></path>
-    <path
-      fill="#4acfff"
+      fill="#51a2ff"
       d="M24 16.33A9.84 9.84 0 0 1 33.77 25a12 12 0 0 0 .07-1.21a9.84 9.84 0 0 0-19.68 0a12 12 0 0 0 .07 1.21A9.84 9.84 0 0 1 24 16.33"
     ></path>
     <path
       fill="none"
-      stroke="#45413c"
+      stroke="#51a2ff"
       stroke-linecap="round"
       stroke-linejoin="round"
       d="M14.16 23.75a9.84 9.84 0 1 0 19.68 0a9.84 9.84 0 1 0-19.68 0"

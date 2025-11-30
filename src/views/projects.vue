@@ -56,15 +56,15 @@ import supabaseIcon from '/public/icons/supabaseIcon.vue'
                 </div>
 
                 <div class="w-full flex flex-wrap gap-2 text-[10px]">
-                  <p class="flex items-center gap-1 px-2 py-1 rounded-xl bg-gray-300/50">
+                  <p class="flex items-center gap-1 px-2 py-1 rounded-lg bg-neutral-200/50">
                     <VueIcon />
                     Vuejs
                   </p>
-                  <p class="flex items-center gap-1 px-2 py-1 rounded-xl bg-gray-300/50">
+                  <p class="flex items-center gap-1 px-2 py-1 rounded-lg bg-neutral-200/50">
                     <TailwindIcon />
                     tailwind
                   </p>
-                  <p class="flex items-center gap-1 px-2 py-1 rounded-xl bg-gray-300/50">
+                  <p class="flex items-center gap-1 px-2 py-1 rounded-lg bg-neutral-200/50">
                     <supabaseIcon />
                     Supabase
                   </p>
@@ -98,15 +98,15 @@ import supabaseIcon from '/public/icons/supabaseIcon.vue'
                 </div>
 
                 <div class="w-full flex flex-wrap gap-2 text-[10px]">
-                  <p class="flex items-center gap-1 px-2 py-1 rounded-xl bg-gray-300/50">
+                  <p class="flex items-center gap-1 px-2 py-1 rounded-lg bg-gray-300/50">
                     <VueIcon />
                     Vuejs
                   </p>
-                  <p class="flex items-center gap-1 px-2 py-1 rounded-xl bg-gray-300/50">
+                  <p class="flex items-center gap-1 px-2 py-1 rounded-lg bg-gray-300/50">
                     <TailwindIcon />
                     tailwind
                   </p>
-                  <p class="flex items-center gap-1 px-2 py-1 rounded-xl bg-gray-300/50">
+                  <p class="flex items-center gap-1 px-2 py-1 rounded-lg bg-gray-300/50">
                     <supabaseIcon />
                     Supabase
                   </p>
@@ -134,11 +134,11 @@ import supabaseIcon from '/public/icons/supabaseIcon.vue'
                   /></a>
                 </div>
                 <div class="w-full flex flex-wrap gap-2 text-[10px]">
-                  <p class="flex items-center gap-1 px-2 py-1 rounded-xl bg-gray-300/50">
+                  <p class="flex items-center gap-1 px-2 py-1 rounded-lg bg-gray-300/50">
                     <VueIcon />
                     Vuejs
                   </p>
-                  <p class="flex items-center gap-1 px-2 py-1 rounded-xl bg-gray-300/50">
+                  <p class="flex items-center gap-1 px-2 py-1 rounded-lg bg-gray-300/50">
                     <TailwindIcon />
                     tailwind
                   </p>
@@ -171,11 +171,11 @@ import supabaseIcon from '/public/icons/supabaseIcon.vue'
                   </p>
                 </div>
                 <div class="w-full flex flex-wrap gap-2 text-[10px]">
-                  <p class="flex items-center gap-1 px-2 py-1 rounded-xl bg-gray-300/50">
+                  <p class="flex items-center gap-1 px-2 py-1 rounded-lg bg-gray-300/50">
                     <VueIcon />
                     Vuejs
                   </p>
-                  <p class="flex items-center gap-1 px-2 py-1 rounded-xl bg-gray-300/50">
+                  <p class="flex items-center gap-1 px-2 py-1 rounded-lg bg-gray-300/50">
                     <TailwindIcon />
                     tailwind
                   </p>
@@ -208,11 +208,11 @@ import supabaseIcon from '/public/icons/supabaseIcon.vue'
                 </div>
 
                 <div class="w-full flex flex-wrap gap-2 text-[10px]">
-                  <p class="flex items-center gap-1 px-2 py-1 rounded-xl bg-gray-300/50">
+                  <p class="flex items-center gap-1 px-2 py-1 rounded-lg bg-gray-300/50">
                     <VueIcon />
                     Vuejs
                   </p>
-                  <p class="flex items-center gap-1 px-2 py-1 rounded-xl bg-gray-300/50">
+                  <p class="flex items-center gap-1 px-2 py-1 rounded-lg bg-gray-300/50">
                     <TailwindIcon />
                     tailwind
                   </p>

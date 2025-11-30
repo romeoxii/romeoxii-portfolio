@@ -37,9 +37,9 @@ export default async function handler(req, res) {
       <strong style="color:#444;">Email:</strong> ${email}
     </p>
 
-    <div style="margin-top: 20px;">
+    <div style="margin-top: 5px; ">
       <strong style="color:#444; font-size: 15px;">Message:</strong>
-      <p style="white-space: pre-line; margin: 8px 0 0; font-size: 15px; line-height: 1.5; color: #333;">
+      <p style="white-space: pre-line; margin: 8px 0 0; font-size: 15px; line-height: 1.5; color: #333; padding: 5px; width: 100%; background: #f7f7f7;">
         ${message}
       </p>
     </div>

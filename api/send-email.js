@@ -23,13 +23,29 @@ export default async function handler(req, res) {
   })
 
   const htmlTemplate = `
-    <div style="font-family: Arial, sans-serif; padding: 12px;">
-      <h2>📩 New Contact Message</h2>
-      <p><strong>Name:</strong> ${name}</p>
-      <p><strong>Email:</strong> ${email}</p>
-      <p style="margin-top: 10px;"><strong>Message:</strong></p>
-      <p style="white-space: pre-line;">${message}</p>
+  <div style="font-family: Arial, sans-serif; padding: 20px; background: #f7f7f7;">
+  <div style="max-width: 550px; margin: auto; background: #ffffff; padding: 24px; border-radius: 8px; border: 1px solid #e5e5e5;">
+    <h2 style="margin-top: 0; font-size: 20px; color: #333; border-bottom: 2px solid #4a90e2; padding-bottom: 8px;">
+      📩 New Contact Message
+    </h2>
+
+    <p style="margin: 10px 0; font-size: 15px;">
+      <strong style="color:#444;">Name:</strong> ${name}
+    </p>
+
+    <p style="margin: 10px 0; font-size: 15px;">
+      <strong style="color:#444;">Email:</strong> ${email}
+    </p>
+
+    <div style="margin-top: 20px;">
+      <strong style="color:#444; font-size: 15px;">Message:</strong>
+      <p style="white-space: pre-line; margin: 8px 0 0; font-size: 15px; line-height: 1.5; color: #333;">
+        ${message}
+      </p>
     </div>
+  </div>
+</div>
+
   `
 
   try {

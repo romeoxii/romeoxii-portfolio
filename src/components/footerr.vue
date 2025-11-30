@@ -9,21 +9,20 @@ const form = ref(null)
 const userName = ref('')
 const userMessage = ref('')
 const loading = ref(false)
-const successMessage = ref('')
+const userEmail = ref('')
 
 async function sendEmail() {
   loading.value = true
+
   const res = await fetch('https://romeoxii-portfolio.vercel.app/api/send-email', {
     method: 'POST',
-    // head
     headers: {
       'Content-Type': 'application/json',
-
       Authorization: `Bearer ${import.meta.env.VITE_API_NODE_KEY}`,
     },
     body: JSON.stringify({
-      from: userName.value,
-      subject: 'New request',
+      name: userName.value,
+      email: userEmail.value,
       message: userMessage.value,
     }),
   })
@@ -32,14 +31,12 @@ async function sendEmail() {
   loading.value = false
 
   if (data?.success) {
-    successMessage.value = 'Message sent!'
-    loading.value = false
+    alert('Message sent!')
     userName.value = ''
+    userEmail.value = ''
     userMessage.value = ''
-    alert(`${successMessage.value}`)
   } else {
-    loading.value = false
-    alert(`${successMessage.value}`)
+    alert('Unable to send message. Try again.')
   }
 }
 </script>
@@ -64,6 +61,17 @@ async function sendEmail() {
             v-model="userName"
             required
             placeholder="name"
+            class="hover"
+          />
+        </div>
+        <div class="flex flex-col w-full space-y-2">
+          <label for="userEmail" class="text-sm font-kanit">Email *</label
+          ><input
+            type="email"
+            id="userEmail"
+            v-model="userEmail"
+            required
+            placeholder="email"
             class="hover"
           />
         </div>

@@ -26,12 +26,10 @@ import ProjectsSvg from '/public/icons/ProjectsSvg.vue'
         </div>
 
         <!-- Two Cards -->
-        <div
-          class="flex flex-col sm:flex-row items-center sm:justify-center sm:space-x-10 space-y-8 sm:space-y-0 p-5 w-full"
-        >
+        <div class="flex items-center justify-center space-x-10 p-5 w-full">
           <!-- About Me Card -->
           <div
-            class="sm:-rotate-6 h-68 sm:w-64 w-[80%] p-3 border border-black/10 shadow-xs rounded-2xl"
+            class="-rotate-6 h-68 sm:w-64 w-[80%] p-3 border border-black/10 shadow-xs rounded-2xl"
           >
             <div class="h-full w-full py-2 flex flex-col items-center justify-between">
               <div class="w-34 h-34 rounded-full bg-blue-50 p-2 flex items-center justify-center">
@@ -54,7 +52,7 @@ import ProjectsSvg from '/public/icons/ProjectsSvg.vue'
 
           <!-- Projects Card -->
           <div
-            class="sm:rotate-6 h-68 sm:w-64 w-[80%] p-3 border border-black/10 shadow-xs rounded-2xl"
+            class="rotate-6 h-68 sm:w-64 w-[80%] p-3 border border-black/10 shadow-xs rounded-2xl"
           >
             <div class="h-full w-full py-2 flex flex-col items-center justify-between">
               <div class="w-34 h-34 rounded-full bg-blue-50 flex items-center justify-center">
@@ -70,6 +68,9 @@ import ProjectsSvg from '/public/icons/ProjectsSvg.vue'
               </RouterLink>
             </div>
           </div>
+        </div>
+        <div class="center mt-28">
+          <div class="mt-4 text-neutral-500">&copy; 2025 Alamele Romeo.</div>
         </div>
       </div>
     </div>

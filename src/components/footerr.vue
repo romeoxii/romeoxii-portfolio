@@ -46,7 +46,7 @@ async function sendEmail() {
   <div class="min-h-96 w-full flex items-center justify-center flex-col bg-blue-50/40">
     <div class="min-h-20 w-full sm:w-[70%] lg:w-[50%] flex flex-col items-center p-3 space-y-5">
       <form
-        class="flex flex-col items-center w-[80%] p-1 space-y-5"
+        class="flex flex-col items-center w-[90%] p-1 space-y-5"
         @submit.prevent="sendEmail"
         ref="form"
       >

@@ -5,15 +5,16 @@ import TailwindIcon from '/public/icons/TailwindIcon.vue'
 import JavascriptIcon from '/public/icons/JavascriptIcon.vue'
 import PythonIcon from '/public/icons/PythonIcon.vue'
 import GitIcon from '/public/icons/GitIcon.vue'
-
 import SupabaseIcon from '/public/icons/supabaseIcon.vue'
+
+import footerr from '@/components/footerr.vue'
 </script>
 
 <template>
   <div
-    class="min-h-screen w-full flex items-center justify-center md:p-8 py-8 px-4 text-gray-800/90 font-Poppins"
+    class="min-h-screen w-full flex flex-col items-center justify-center pt-8 text-gray-800/90 font-Poppins"
   >
-    <div class="h-full md:w-4xl w-full md:p-6">
+    <div class="h-full md:w-4xl w-full py-6 px-4">
       <div class="h-full w-full flex flex-col justify-between space-y-3">
         <div class="w-full flex flex-col justify-between md:p-8 py-4 space-y-5">
           <h1 class="text-3xl font-bold md:mt-5 mt-7">Hi, Romeo here</h1>
@@ -89,6 +90,7 @@ import SupabaseIcon from '/public/icons/supabaseIcon.vue'
         </div>
       </div>
     </div>
+    <footerr />
   </div>
 </template>
 

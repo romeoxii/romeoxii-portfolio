@@ -6,10 +6,10 @@ const toggleStore = useToggleStore()
 
 <template>
   <div
-    class="flex items-center justify-between gap-2 p-0.5 sm:p-1 rounded-3xl border border-neutral-400 bg-neutral-100 shadow-lg"
+    class="flex items-center justify-between gap-2 p-1 rounded-3xl border border-neutral-400 bg-neutral-100 shadow-lg"
   >
     <button
-      class="rounded-full p-1 hover"
+      class="rounded-full p-1.5 hover"
       @click="toggleStore.toggleTheme()"
       :class="toggleStore.currentTheme === 'light' ? 'bg-neutral-600 text-white' : 'text-blue-400'"
     >
@@ -26,7 +26,7 @@ const toggleStore = useToggleStore()
       </svg>
     </button>
     <button
-      class="rounded-full p-1 hover"
+      class="rounded-full p-1.5 hover"
       @click="toggleStore.toggleTheme()"
       :class="toggleStore.currentTheme === 'dark' ? 'bg-neutral-600 text-white' : 'text-blue-400'"
     >

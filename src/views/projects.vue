@@ -7,11 +7,11 @@ import supabaseIcon from '/public/icons/supabaseIcon.vue'
 </script>
 
 <template>
-  <div class="min-h-screen w-full p-5 flex items-center justify-center font-Poppins">
+  <div class="min-h-screen w-full p-5 flex flex-col items-center justify-center font-Poppins">
     <div class="h-full md:w-4xl w-full md:p-6">
       <div class="flex flex-col items-center h-full w-full md:p-3">
         <div class="w-full mt-18 md:mt-8 mb-8">
-          <h1 class="text-5xl sm:text-7xl font-extrabold mb-4 sm:mb-6 text-neutral-700">
+          <h1 class="text-5xl sm:text-7xl font-extrabold mb-4 sm:mb-6 text-neutral-700 text-wrap">
             Projects
           </h1>
           <p class="text-xs sm:text-sm fonts-light text-neutral-600">
@@ -35,7 +35,7 @@ import supabaseIcon from '/public/icons/supabaseIcon.vue'
               <img
                 src="../assets/Images/AniTracker.png"
                 alt="AniTracker"
-                class="rounded-t-3xl w-full object-cover h-44 transition-all duration-600 hover:scale-105 ease-in-out"
+                class="rounded-t-3xl w-full object-cover object-center h-44 transition-all duration-600 hover:scale-105 ease-in-out"
               />
               <div class="min-h-20 w-full flex flex-col space-y-5 p-3">
                 <div class="flex flex-col w-full space-y-3">
@@ -77,7 +77,7 @@ import supabaseIcon from '/public/icons/supabaseIcon.vue'
               <img
                 src="../assets/Images/celines-treats.png"
                 alt="Celine's Treats"
-                class="rounded-t-3xl w-full object-cover h-44 transition-all duration-600 hover:scale-105 ease-in-out"
+                class="rounded-t-3xl w-full object-cover h-44 transition-all duration-600 hover:scale-105 object-center ease-in-out"
               />
               <div class="min-h-16 w-full flex flex-col space-y-5 p-3">
                 <div class="flex flex-col space-y-3 w-full">
@@ -120,7 +120,7 @@ import supabaseIcon from '/public/icons/supabaseIcon.vue'
               <img
                 src="../assets/Images/celine.png"
                 alt="Celine's Treats"
-                class="rounded-t-3xl w-full object-cover h-44 transition-all duration-600 hover:scale-105 ease-in-out"
+                class="rounded-t-3xl w-full object-cover h-44 transition-all duration-600 hover:scale-105 object-center ease-in-out"
               />
               <div class="min-h-16 w-full flex flex-col space-y-5 p-3">
                 <div class="w-full flex items-center justify-between">
@@ -152,7 +152,7 @@ import supabaseIcon from '/public/icons/supabaseIcon.vue'
               <img
                 src="../assets/Images/Space-tourism.png"
                 alt="Space tourism"
-                class="rounded-t-3xl w-full object-cover h-44 transition-all duration-600 hover:scale-105 ease-in-out"
+                class="rounded-t-3xl w-full object-cover h-44 transition-all duration-600 hover:scale-105 object-center ease-in-out"
               />
               <div class="min-h-16 w-full flex flex-col space-y-5 p-3">
                 <div class="flex flex-col w-full space-y-3">
@@ -188,7 +188,7 @@ import supabaseIcon from '/public/icons/supabaseIcon.vue'
               <img
                 src="../assets/Images/Advice.png"
                 alt="Advice Gen App"
-                class="rounded-t-3xl w-full object-cover h-44 transition-all duration-600 hover:scale-105 ease-in-out"
+                class="rounded-t-3xl w-full object-cover h-44 transition-all duration-600 hover:scale-105 object-center ease-in-out"
               />
               <div class="min-h-16 w-full flex flex-col space-y-5 p-3">
                 <div class="flex flex-col w-full space-y-3">
@@ -222,6 +222,9 @@ import supabaseIcon from '/public/icons/supabaseIcon.vue'
           </div>
         </div>
       </div>
+    </div>
+    <div class="flex flex-col w-full items-center mt-10">
+      <div class="mt-4 text-neutral-500 text-sm">&copy; 2025 Alamele Romeo.</div>
     </div>
   </div>
 </template>

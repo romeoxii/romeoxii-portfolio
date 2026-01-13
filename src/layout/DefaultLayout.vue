@@ -29,6 +29,6 @@ import { RouterView } from 'vue-router'
   <NavBar />
   <main class="relative bg-white transition-colors duration-300 min-h-screen">
     <RouterView />
-    <!-- <ThemeToggle class="fixed sm:bottom-4 sm:right-6 bottom-2 right-2" /> -->
+    <!-- <ThemeToggle class="fixed sm:bottom-4 sm:right-6 bottom-2 right-" /> -->
   </main>
 </template>

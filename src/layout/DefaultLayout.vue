@@ -1,7 +1,7 @@
 <script setup>
 import NavBar from '@/components/NavBar.vue'
 
-import { onMounted, watch } from 'vue'
+// import { onMounted, watch } from 'vue'
 import { RouterView } from 'vue-router'
 // import { useToggleStore } from '@/store/toggle'
 // import ThemeToggle from '@/components/themeToggle.vue'
